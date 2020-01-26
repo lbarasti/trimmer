@@ -8,6 +8,13 @@ targets:
   trimmer:
     main: src/trimmer.cr
 
+dependencies:
+  twitter_auth:
+    github: lbarasti/twitter_auth
+  kemal:
+    github: kemalcr/kemal
+
+
 crystal: 0.32.1
 
 license: MIT
