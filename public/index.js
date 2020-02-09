@@ -5,8 +5,8 @@ var app = new Vue({
     logged_in: false,
     username: null
   },
-  beforeMount: function () {
-    this.$nextTick(function () {
+  beforeMount: function() {
+    this.$nextTick(() => {
       var urlParams = new URLSearchParams(window.location.search);
       token = urlParams.get("token")
       if(token == null) {

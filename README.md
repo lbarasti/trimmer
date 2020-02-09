@@ -1,27 +1,22 @@
 # trimmer
 
-TODO: Write a description here
+Sample app to show how to use [twitter_auth](https://github.com/lbarasti/twitter_auth) to add the "sign-in with Twitter" functionality to a Crystal web app.
 
 ## Installation
 
-TODO: Write installation instructions here
+```crystal
+shards install
+PORT=8090 crystal ./src/trimmer.cr
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+Once the app is running, open your browser to `localhost:8090`.
 
-## Development
+## Demo
 
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/trimmer/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+You can play with a demo of this app on [heroku](https://this-is-trimmer.herokuapp.com/).
 
 ## Contributors
 
-- [lbarasti](https://github.com/your-github-user) - creator and maintainer
+- [lbarasti](https://github.com/lbarasti) - creator and maintainer
